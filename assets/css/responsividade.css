@@ -1,0 +1,143 @@
+@media screen and (max-width: 480px) {
+  .text_menu{
+    display: none;
+  }
+
+  .cabecalho{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .destaques__principal, .destaques__categorias{
+    grid-column: 1 / 5;
+  }
+  .destaques__secundario{
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  .destaques__secundario:nth-child(3){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  .destaques__secundario:nth-child(4){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  .destaques__secundario:nth-child(5){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  .populares__conteudo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .populares__card{
+    background: #fdfdfd;
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+ 
+  .destaques__principal, .destaques__categorias{
+    grid-column: 1 / 5;
+  }
+  
+  .destaques__secundario{
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  
+  .destaques__secundario:nth-child(3){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  
+  .destaques__secundario:nth-child(4){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  
+  .destaques__secundario:nth-child(5){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+
+  .populares__conteudo{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .populares__card{
+    background: #fdfdfd;
+    display: flex;
+    flex-wrap:wrap;
+    width: 45%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 960px) {
+  
+  .cabecalho{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .destaques__principal, .destaques__categorias{
+    grid-column: 1 / 5;
+  }
+  
+  .destaques__secundario{
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  
+  .destaques__secundario:nth-child(3){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  
+  .destaques__secundario:nth-child(4){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+  
+  .destaques__secundario:nth-child(5){
+    display: none;
+    grid-column: none;
+    grid-row:none;
+  }
+
+  .populares__conteudo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .populares__card{
+    background: #fdfdfd;
+    display: flex;
+    flex-wrap:wrap;
+    width: 45%;
+    height: 100%;
+  }
+}
