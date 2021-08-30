@@ -30,3 +30,25 @@
     padding: 1rem;
     text-align: center;
 }
+
+#scrollUp {
+    position: fixed;
+    z-index: 2147483647;
+    bottom: 0;
+    right: 30px;
+    width: 50px;
+    height: 45px;
+    margin-bottom: -10px;
+    padding: 10px 5px;
+    font: 14px/20px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    background-color: #687077;
+    -webkit-transition: margin-bottom 150ms linear;
+    -moz-transition: margin-bottom 150ms linear;
+    -o-transition: margin-bottom 150ms linear;
+    transition: margin-bottom 150ms linear;
+}
